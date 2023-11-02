@@ -1,0 +1,233 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.background{
+ 
+   background-image: url("img/background.jpg");
+     background-repeat: no-repeat;
+     background-size:100%;
+    
+     height:3000px;
+   
+ 
+ }
+ .nav-link{
+   color:aliceblue;
+   font-family:   'Times New Roman';;
+  
+ }
+ li{
+   margin-top: 30px;
+ }
+ .left{
+  margin-left: 50px;
+  margin-top: 100px;
+float:left;
+text-align: left;
+text-wrap: balance;
+
+   color:aliceblue;
+ }
+ #coffee{
+   font-family: cursive;
+   font-size: 8rem;
+ }
+#publishing{
+   font-family: 'Times New Roman';
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 20px;
+}
+
+
+button{
+   background-color: #e2e253; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Times New Roman';
+}
+.logo{
+   height:40px;
+   width:40px;
+   color:aliceblue;
+   font-family:   'Times New Roman';
+   margin-top: 30px;
+}
+#about{
+   margin-top: -2300px;
+}
+#about-img{
+   font-size: 66px;
+   font-family: 'Times New Roman';
+  
+   color:#d2691e;
+}
+#sec{
+   font-size: 55px;
+   font-family: 'Times New Roman';
+  text-align: center;
+  color:#d2691e;
+   margin-top: 90px;
+}
+#sec-text{
+
+   font-family: 'Times New Roman';
+  text-align: center;
+}
+h5{
+   font-family: 'Times New Roman';
+   text-align: center;
+}
+p{
+   font-family: 'Times New Roman';
+   text-align: center;
+}
+#btn{
+   margin-left: 35px;
+ 
+}
+.footer{
+   background-image: url("img/footer3.avif");
+   background-repeat: no-repeat;
+   background-size:100%;
+   background-color: rgba(171, 33, 141, 0.7);
+   height:300px;
+}
+
+
+ /* Position text in the middle of the page/image */
+ #bg-text {
+ 
+   font-size: 20px;
+   font-family: 'Times New Roman';
+  text-align: center;
+   color:white;
+   /* margin-top: 90px; */
+   padding: 20px;
+   text-align: center;
+ }
+ .d-flex{
+   padding-left: 23rem;
+   margin-right: 28rem;
+   padding-bottom: 12rem;
+ }
+ 
+ #myBtn{
+   float:inline-end
+ }
+ #myBtn:hover {
+   background-color: #555;
+ }
+ #foot{
+   color:#fff;
+ }
+ h6{
+   font-family: 'Times New Roman';
+ }
+ #bott{
+   margin-top: 30px;
+ }
+ #footer-hard{
+   margin-left: 130px;
+   font-size: 25px;
+       }
+ @media (min-width: 356px) and (max-width: 950px) {
+   .background{
+ 
+      background-image: url("img/background.jpg");
+        background-repeat: no-repeat;
+        background-size:100%;
+       width:700px;
+      /* height:2000px; */
+      
+    
+    }
+    .nav-link{
+      color:aliceblue;
+      font-family:   'Times New Roman';;
+     
+    }
+    li{
+      margin-top: 10px;
+    }
+    ul{
+      float:left;
+    }
+    .left{
+      margin-left: 50px;
+      margin-top: 20px;
+    float:left;
+    text-align: left;
+    text-wrap: balance;
+    
+       color:aliceblue;
+     }
+     #coffee{
+      font-family: cursive;
+      font-size: 4rem;
+    }
+   #publishing{
+      font-family: 'Times New Roman';
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 10px;
+   }
+   button{
+      background-color: #e2e253; /* Green */
+     border: none;
+     color: white;
+     padding: 5px 25px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 20px;
+     display: inline-block;
+     font-size: 16px;
+     font-family: 'Times New Roman';
+   }
+   #about-img{
+      font-size: 30px;
+      font-family: 'Times New Roman';
+     
+      color:#d2691e;
+     margin-top: -300px;
+   }
+   #about-btn{
+     margin-left: 90px;
+   }
+   /* #about{
+      margin-bottom: -1300px;
+   } */
+   .card{
+      margin-left: 50px;
+      margin-top: 20px;
+
+   }
+   #sec{
+      font-size: 30px;
+     
+   }
+   .d-flex{
+      /* padding-left: 23rem; */
+      /* margin-right: 28rem; */
+     padding:50px 0px 50px 50px;
+     margin-bottom: 60px;
+    }
+    .form{
+      margin-bottom: 560px;
+    }
+    #bott{
+      margin-top: 30px;
+    }
+    #footer-hard{
+margin-left: 80px;
+    }
+ }
